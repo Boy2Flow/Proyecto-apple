@@ -1,0 +1,353 @@
+{
+  "products": [
+    {
+      "id": "iphone-17-pro",
+      "name": "iPhone 17 Pro",
+      "category": "iPhone",
+      "price": 1329,
+      "description": "El iPhone más avanzado con titanio de grado aeroespacial, chip A18 Pro y sistema de cámaras profesional.",
+      "features": [
+        "Pantalla Super Retina XDR de 6.3 pulgadas",
+        "Chip A18 Pro con Neural Engine de 16 núcleos",
+        "Sistema de cámaras Pro de 48MP",
+        "Titanio de grado aeroespacial",
+        "Batería de hasta 29 horas de reproducción de vídeo",
+        "Dynamic Island",
+        "Always-On display"
+      ],
+      "colors": [
+        "Titanio Natural",
+        "Titanio Azul",
+        "Titanio Blanco",
+        "Titanio Negro"
+      ],
+      "storage": ["256GB", "512GB", "1TB"],
+      "image": "iphone-17-pro.jpg",
+      "inStock": true
+    },
+    {
+      "id": "iphone-air",
+      "name": "iPhone Air",
+      "category": "iPhone",
+      "price": 999,
+      "description": "El iPhone más delgado y ligero jamás creado. Potencia increíble en un diseño revolucionario.",
+      "features": [
+        "Pantalla Super Retina XDR de 6.1 pulgadas",
+        "Chip A17 Bionic",
+        "Cámara principal de 48MP",
+        "Solo 5.9mm de grosor",
+        "Batería de hasta 24 horas",
+        "Face ID avanzado",
+        "Resistencia al agua IP68"
+      ],
+      "colors": ["Azul Cielo", "Rosa", "Blanco Estelar", "Medianoche"],
+      "storage": ["128GB", "256GB", "512GB"],
+      "image": "iphone-air.jpg",
+      "inStock": true
+    },
+    {
+      "id": "iphone-16",
+      "name": "iPhone 16",
+      "category": "iPhone",
+      "price": 879,
+      "description": "El iPhone esencial con todas las características que necesitas.",
+      "features": [
+        "Pantalla Super Retina XDR de 6.1 pulgadas",
+        "Chip A17",
+        "Sistema de cámaras dual de 48MP",
+        "Dynamic Island",
+        "Batería de hasta 22 horas",
+        "Ceramic Shield",
+        "5G ultrarrápido"
+      ],
+      "colors": ["Negro", "Azul", "Verde", "Rosa", "Blanco"],
+      "storage": ["128GB", "256GB", "512GB"],
+      "image": "iphone-16.jpg",
+      "inStock": true
+    },
+    {
+      "id": "ipad-air",
+      "name": "iPad Air",
+      "category": "iPad",
+      "price": 699,
+      "description": "Potente, colorido y versátil. El iPad Air es perfecto para todo lo que haces.",
+      "features": [
+        "Pantalla Liquid Retina de 11 pulgadas",
+        "Chip M2",
+        "Cámara frontal horizontal de 12MP",
+        "Compatible con Apple Pencil Pro",
+        "Compatible con Magic Keyboard",
+        "Touch ID en el botón superior",
+        "Wi-Fi 6E ultrarrápido"
+      ],
+      "colors": ["Azul", "Púrpura", "Gris Espacial", "Luz de Estrellas"],
+      "storage": ["128GB", "256GB", "512GB", "1TB"],
+      "image": "ipad-air.jpg",
+      "inStock": true
+    },
+    {
+      "id": "ipad-pro-13",
+      "name": "iPad Pro 13\"",
+      "category": "iPad",
+      "price": 1449,
+      "description": "La experiencia iPad definitiva con el chip M3 y pantalla OLED.",
+      "features": [
+        "Pantalla Ultra Retina XDR de 13 pulgadas",
+        "Chip M3 con Neural Engine",
+        "Cámara TrueDepth frontal de 12MP",
+        "Escáner LiDAR",
+        "Thunderbolt / USB 4",
+        "Face ID",
+        "Batería de hasta 10 horas"
+      ],
+      "colors": ["Plata", "Gris Espacial"],
+      "storage": ["256GB", "512GB", "1TB", "2TB"],
+      "image": "ipad-pro-13.jpg",
+      "inStock": true
+    },
+    {
+      "id": "macbook-air-15",
+      "name": "MacBook Air 15\"",
+      "category": "Mac",
+      "price": 1599,
+      "description": "El portátil más popular del mundo, ahora con pantalla de 15 pulgadas.",
+      "features": [
+        "Pantalla Liquid Retina de 15.3 pulgadas",
+        "Chip M3 con CPU de 8 núcleos",
+        "GPU de hasta 10 núcleos",
+        "Hasta 24GB de memoria unificada",
+        "Batería de hasta 18 horas",
+        "MagSafe 3",
+        "Solo 1.51 kg"
+      ],
+      "colors": ["Gris Espacial", "Plata", "Medianoche", "Luz de Estrellas"],
+      "storage": ["256GB", "512GB", "1TB", "2TB"],
+      "image": "macbook-air-15.jpg",
+      "inStock": true
+    },
+    {
+      "id": "macbook-pro-14",
+      "name": "MacBook Pro 14\"",
+      "category": "Mac",
+      "price": 2199,
+      "description": "Potencia profesional para los flujos de trabajo más exigentes.",
+      "features": [
+        "Pantalla Liquid Retina XDR de 14.2 pulgadas",
+        "Chip M3 Pro o M3 Max",
+        "Hasta 36GB de memoria unificada",
+        "Batería de hasta 18 horas",
+        "Tres puertos Thunderbolt 4",
+        "Ranura para tarjetas SDXC",
+        "Touch ID"
+      ],
+      "colors": ["Gris Espacial", "Plata"],
+      "storage": ["512GB", "1TB", "2TB", "4TB"],
+      "image": "macbook-pro-14.jpg",
+      "inStock": true
+    },
+    {
+      "id": "watch-series-11",
+      "name": "Apple Watch Series 11",
+      "category": "Watch",
+      "price": 449,
+      "description": "Tu compañero de salud y fitness definitivo.",
+      "features": [
+        "Pantalla Always-On Retina",
+        "Sensor de temperatura avanzado",
+        "ECG y notificaciones de ritmo cardíaco",
+        "Detección de caídas y choques",
+        "Resistencia al agua hasta 50m",
+        "Seguimiento del ciclo menstrual",
+        "watchOS 11"
+      ],
+      "colors": [
+        "Medianoche",
+        "Luz de Estrellas",
+        "Plata",
+        "Rojo (PRODUCT)RED"
+      ],
+      "sizes": ["41mm", "45mm"],
+      "image": "watch-series-11.jpg",
+      "inStock": true
+    },
+    {
+      "id": "watch-ultra-3",
+      "name": "Apple Watch Ultra 3",
+      "category": "Watch",
+      "price": 899,
+      "description": "El Apple Watch más robusto y capaz para aventuras extremas.",
+      "features": [
+        "Caja de titanio de 49mm",
+        "Pantalla Always-On de hasta 3000 nits",
+        "Resistencia al agua hasta 100m",
+        "Certificación de buceo EN13319",
+        "Sirena de 86 decibelios",
+        "Batería de hasta 36 horas",
+        "Botón de Acción personalizable"
+      ],
+      "colors": ["Titanio Natural"],
+      "sizes": ["49mm"],
+      "image": "watch-ultra-3.jpg",
+      "inStock": true
+    },
+    {
+      "id": "airpods-pro-3",
+      "name": "AirPods Pro 3",
+      "category": "AirPods",
+      "price": 279,
+      "description": "Audio adaptativo. Cancelación de ruido mejorada. Experiencia mágica.",
+      "features": [
+        "Cancelación activa de ruido mejorada",
+        "Audio adaptativo",
+        "Modo de transparencia",
+        "Audio espacial personalizado",
+        "Chip H2",
+        "Hasta 6 horas de batería",
+        "Estuche de carga MagSafe con USB-C"
+      ],
+      "colors": ["Blanco"],
+      "image": "airpods-pro-3.jpg",
+      "inStock": true
+    },
+    {
+      "id": "airpods-max",
+      "name": "AirPods Max",
+      "category": "AirPods",
+      "price": 629,
+      "description": "Auriculares over-ear con audio de alta fidelidad y cancelación de ruido.",
+      "features": [
+        "Controladores dinámicos diseñados por Apple",
+        "Cancelación activa de ruido",
+        "Modo de transparencia",
+        "Audio espacial",
+        "Digital Crown para control preciso",
+        "Hasta 20 horas de batería",
+        "Almohadillas de malla tejida"
+      ],
+      "colors": ["Plata", "Gris Espacial", "Azul Cielo", "Rosa", "Verde"],
+      "image": "airpods-max.jpg",
+      "inStock": true
+    },
+    {
+      "id": "apple-tv-4k",
+      "name": "Apple TV 4K",
+      "category": "TV y Casa",
+      "price": 169,
+      "description": "La mejor forma de ver TV. Películas, series y deportes en 4K HDR.",
+      "features": [
+        "Chip A15 Bionic",
+        "4K Dolby Vision y HDR10+",
+        "Dolby Atmos",
+        "Siri Remote con USB-C",
+        "Compatible con HomeKit",
+        "Apple Arcade",
+        "Apple Fitness+"
+      ],
+      "storage": ["64GB", "128GB"],
+      "image": "apple-tv-4k.jpg",
+      "inStock": true
+    },
+    {
+      "id": "homepod",
+      "name": "HomePod",
+      "category": "TV y Casa",
+      "price": 349,
+      "description": "Audio de alta fidelidad que llena toda la habitación.",
+      "features": [
+        "Audio de alta fidelidad",
+        "Audio espacial",
+        "Siri integrado",
+        "Control de casa inteligente",
+        "Chip S7",
+        "Sensor de temperatura y humedad",
+        "Compatible con Matter"
+      ],
+      "colors": ["Blanco", "Medianoche"],
+      "image": "homepod.jpg",
+      "inStock": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "iphone",
+      "name": "iPhone",
+      "description": "El smartphone más avanzado del mundo",
+      "icon": "📱"
+    },
+    {
+      "id": "ipad",
+      "name": "iPad",
+      "description": "Potente. Portátil. Versátil.",
+      "icon": "📱"
+    },
+    {
+      "id": "mac",
+      "name": "Mac",
+      "description": "Portátiles y ordenadores de sobremesa",
+      "icon": "💻"
+    },
+    {
+      "id": "watch",
+      "name": "Watch",
+      "description": "El reloj inteligente definitivo",
+      "icon": "⌚"
+    },
+    {
+      "id": "airpods",
+      "name": "AirPods",
+      "description": "Audio inalámbrico mágico",
+      "icon": "🎧"
+    },
+    {
+      "id": "tv-casa",
+      "name": "TV y Casa",
+      "description": "Entretenimiento y hogar inteligente",
+      "icon": "📺"
+    }
+  ],
+  "services": [
+    {
+      "id": "apple-one",
+      "name": "Apple One",
+      "description": "Todos los servicios de Apple en una suscripción",
+      "price": 19.95,
+      "features": ["Apple Music", "Apple TV+", "Apple Arcade", "iCloud+ 50GB"]
+    },
+    {
+      "id": "apple-music",
+      "name": "Apple Music",
+      "description": "100 millones de canciones sin anuncios",
+      "price": 10.99,
+      "features": [
+        "Audio espacial",
+        "Audio sin pérdida",
+        "Letras en tiempo real"
+      ]
+    },
+    {
+      "id": "apple-tv-plus",
+      "name": "Apple TV+",
+      "description": "Series y películas Apple Originals",
+      "price": 9.99,
+      "features": ["Contenido original", "Sin anuncios", "4K HDR"]
+    },
+    {
+      "id": "apple-arcade",
+      "name": "Apple Arcade",
+      "description": "Más de 200 juegos sin anuncios",
+      "price": 6.99,
+      "features": ["Sin anuncios", "Sin compras integradas", "Juego offline"]
+    },
+    {
+      "id": "icloud-plus",
+      "name": "iCloud+",
+      "description": "Almacenamiento en la nube seguro",
+      "price": 0.99,
+      "features": [
+        "Privacidad mejorada",
+        "HomeKit Secure Video",
+        "Ocultar mi email"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+/* Tienda Styles */
+
+.store-header {
+    background: linear-gradient(135deg, #f5f5f7 0%, #e8e8ed 100%);
+    padding: 80px 20px 60px;
+    text-align: center;
+}
+
+.store-header-content h1 {
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    color: #1d1d1f;
+    margin-bottom: 15px;
+}
+
+.store-header-content p {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 400;
+    color: #6e6e73;
+}
+
+.category-filter {
+    background: #ffffff;
+    padding: 20px;
+    border-bottom: 1px solid #d2d2d7;
+    position: sticky;
+    top: 44px;
+    z-index: 100;
+}
+
+.filter-content {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 8px 20px;
+    border: 1px solid #d2d2d7;
+    border-radius: 20px;
+    background: #ffffff;
+    color: #1d1d1f;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.filter-btn:hover {
+    border-color: #0066cc;
+    color: #0066cc;
+}
+
+.filter-btn.active {
+    background: #0066cc;
+    color: #ffffff;
+    border-color: #0066cc;
+}
+
+.products-section {
+    padding: 60px 20px;
+    background: #f5f5f7;
+}
+
+.products-container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 40px 30px;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.product-image {
+    width: 100%;
+    height: 280px;
+    background: transparent;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.product-image img {
+    transition: transform 0.5s ease;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.1));
+}
+
+.product-card:hover .product-image img {
+    transform: scale(1.05);
+}
+
+.product-category {
+    color: #bf4800;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 10px;
+    line-height: 1.1;
+}
+
+.product-description {
+    font-size: 15px;
+    color: #1d1d1f;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    max-width: 300px;
+}
+
+.product-price {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1d1d1f;
+    margin-top: auto;
+    margin-bottom: 25px;
+}
+
+.product-actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    width: 100%;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #0066cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #0077ed;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+}
+
+.btn-secondary:hover {
+    background: #0066cc;
+    color: #ffffff;
+}
+
+.cart-badge {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    background: #bf4800;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 10px;
+    min-width: 18px;
+    text-align: center;
+}
+
+.nav-bag {
+    position: relative;
+}
+
+@media (max-width: 734px) {
+    .store-header-content h1 {
+        font-size: 32px;
+    }
+    
+    .store-header-content p {
+        font-size: 19px;
+    }
+    
+    .products-container {
+        grid-template-columns: 1fr;
+    }
+}

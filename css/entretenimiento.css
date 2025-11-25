@@ -1,0 +1,129 @@
+/* Entertainment Page Styles */
+
+.entertainment-hero {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #f5f5f7;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.entertainment-hero h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.entertainment-hero p {
+    font-size: 28px;
+    opacity: 0.9;
+}
+
+.services-grid {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    min-height: 400px;
+    border-radius: 18px;
+    padding: 50px 40px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.service-one {
+    background: linear-gradient(135deg, #fa233b 0%, #fb5581 100%);
+    color: #ffffff;
+}
+
+.service-music {
+    background: linear-gradient(135deg, #fa57c1 0%, #fb233b 100%);
+    color: #ffffff;
+}
+
+.service-tv {
+    background: linear-gradient(135deg, #000000 0%, #1c1c1e 100%);
+    color: #ffffff;
+}
+
+.service-arcade {
+    background: linear-gradient(135deg, #ff9500 0%, #ff6482 100%);
+    color: #ffffff;
+}
+
+.service-fitness {
+    background: linear-gradient(135deg, #92e82a 0%, #00d4ff 100%);
+    color: #1d1d1f;
+}
+
+.service-icloud {
+    background: linear-gradient(135deg, #007aff 0%, #00c7ff 100%);
+    color: #ffffff;
+}
+
+.service-content h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-price {
+    font-size: 21px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.service-content p {
+    font-size: 19px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.service-content .btn-primary {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: inherit;
+    padding: 12px 24px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+.service-content .btn-primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.service-fitness .btn-primary {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.service-fitness .btn-primary:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 734px) {
+    .entertainment-hero h1 {
+        font-size: 40px;
+    }
+    
+    .entertainment-hero p {
+        font-size: 21px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
