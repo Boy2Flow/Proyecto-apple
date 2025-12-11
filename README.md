@@ -1,3 +1,7 @@
+# 💚 REDES SOCIALES 💚
+🔗 https://www.instagram.com/boy2flow_
+🔗 https://github.com/Boy2Flow
+
 # Réplica de la Página Web de Apple
 
 Este proyecto es una réplica completa de la página web de Apple (apple.com), creada con HTML, CSS y JavaScript vanilla.
@@ -183,3 +187,4 @@ El sitio está optimizado para:
 
 **Creado como réplica educativa de apple.com**
 _Todos los derechos de diseño y marca pertenecen a Apple Inc._
+
